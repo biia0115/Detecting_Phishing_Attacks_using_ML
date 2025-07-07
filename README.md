@@ -18,15 +18,7 @@ The text in the datasets was preprocessed and transformed into numerical values 
 
 Models
 
-Three machine learning models were trained and evaluated:
-
-Support Vector Machines
-
-Random Forest
-
-Logistic Regression
-
-The trained models were saved using Python's pickle library and can be loaded for inference or further testing.
+Three machine learning models were trained and evaluated: Support Vector Machines, Random Forest and Logistic Regression. The trained models were saved using Python's pickle library and can be loaded for inference or further testing.
 
 Workflow
 
@@ -36,6 +28,5 @@ Training: The three models were trained on the unified dataset.
 
 Testing: The trained models were tested on the TREC_05_mic dataset to evaluate their performance.
 
-Files in this Repository
 
-We provide six scripts in the repository: two scripts (one for training and one for testing) per model.
+Files in this Repository: we provide six scripts in the repository: two scripts (one for training and one for testing) per model.
